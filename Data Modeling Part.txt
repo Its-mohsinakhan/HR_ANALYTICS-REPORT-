@@ -1,0 +1,21 @@
+Data Modeling :
+
+fill null values >>
+click on view >> click on column quality >>
+then check if any column have empty values , if 
+Empty shows some percent of value then fill it by 
+clicking on transform >> fill >> down(it will fill it by nearest value)
+
+Replace values :
+In column BusinessTravel >> replace Travel_rarely by TravelRarely
+
+
+Add calculated fields >>
+add new column not new measure >> Attrition_count
+Attrition_count
+formula >> if(HR_Analytics[Attrition]=='Yes',1,0)
+
+add new measure>> Attrition_rate
+formula >> sum([HR_Analytics[Attrion_count])/sum(HR_Analytics[EmployeeCount])
+
+

@@ -1,0 +1,42 @@
+ description of each column from the **HR_Analytics** dataset:
+
+1. **EmpID**: Unique identifier for each employee.
+2. **Age**: The employee’s age in years.
+3. **AgeGroup**: Categorical variable that groups employees into different age ranges (e.g., 20-30, 31-40, etc.).
+4. **Attrition**: Indicates whether the employee has left the company (Yes/No).
+5. **BusinessTravel**: Frequency of business travel for the employee (e.g., No Travel, Travel Frequently, Travel Rarely).
+6. **DailyRate**: The daily salary rate for the employee.
+7. **Department**: The department where the employee works (e.g., Sales, Research & Development, HR).
+8. **DistanceFromHome**: Distance between the employee’s home and work, measured in miles or kilometers.
+9. **Education**: Education level of the employee (e.g., High School, Bachelor’s, Master’s).
+10. **EducationField**: Field of study related to the employee's education (e.g., Life Sciences, Medical, Marketing).
+11. **EmployeeCount**: The number of employees in the company (often a constant value in datasets).
+12. **EmployeeNumber**: Another unique identifier for each employee, often redundant with EmpID.
+13. **EnvironmentSatisfaction**: Employee’s satisfaction with their work environment, usually rated on a scale (e.g., 1-4).
+14. **Gender**: The gender of the employee (Male/Female).
+15. **HourlyRate**: The hourly wage of the employee.
+16. **JobInvolvement**: Level of involvement or commitment the employee feels towards their job, usually rated on a scale.
+17. **JobLevel**: The level or rank of the employee within the company hierarchy.
+18. **JobRole**: The employee's job title or role (e.g., Sales Executive, Manager, Research Scientist).
+19. **JobSatisfaction**: The employee's satisfaction with their job, typically rated on a scale (e.g., 1-4).
+20. **MaritalStatus**: Marital status of the employee (e.g., Single, Married, Divorced).
+21. **MonthlyIncome**: The monthly income of the employee.
+22. **SalarySlab**: Categorical variable that places employees into income ranges or "slabs" (e.g., low, medium, high salary).
+23. **MonthlyRate**: The employee's monthly salary rate.
+24. **NumCompaniesWorked**: The number of companies the employee has worked for prior to the current one.
+25. **Over18**: A binary indicator of whether the employee is over 18 years old (usually a constant).
+26. **OverTime**: Indicates whether the employee works overtime (Yes/No).
+27. **PercentSalaryHike**: The percentage increase in the employee’s salary.
+28. **PerformanceRating**: The employee's performance rating, usually on a scale (e.g., 1-5).
+29. **RelationshipSatisfaction**: Employee's satisfaction with their relationships at work, often rated on a scale.
+30. **StandardHours**: Standard working hours, usually a constant value in the dataset.
+31. **StockOptionLevel**: The level of stock options awarded to the employee (e.g., 0-3).
+32. **TotalWorkingYears**: The total number of years the employee has worked across all companies.
+33. **TrainingTimesLastYear**: The number of training sessions attended by the employee in the past year.
+34. **WorkLifeBalance**: The employee's perceived balance between work and personal life, often rated on a scale.
+35. **YearsAtCompany**: The number of years the employee has worked at the current company.
+36. **YearsInCurrentRole**: The number of years the employee has been in their current job role.
+37. **YearsSinceLastPromotion**: The number of years since the employee was last promoted.
+38. **YearsWithCurrManager**: The number of years the employee has worked with their current manager.
+
+Let me know if you need more details or clarification on any of these columns!
